@@ -12,7 +12,7 @@ html, body
 #boardArea
 {
     background: #009933;
-    background-image: url("CTNew.png");
+    background-image: url("images/CTNew.png");
     background-repeat: no-repeat;
     background-size: 900px 465px;
     position:absolute;
@@ -24,7 +24,7 @@ html, body
 {
     height: 50px;
     width: 50px;
-    background-image: url("point.png");
+    background-image: url("images/point.png");
     background-repeat: no-repeat;
     background-size: 50px 50px;
     position:absolute;
@@ -353,7 +353,7 @@ html, body
 {
     height: 40px;
     width: 40px;
-    background-image: url(chip.png);
+    background-image: url("images/chip.png");
     border-radius: 50%;
     display: inline-block;
     position: absolute;

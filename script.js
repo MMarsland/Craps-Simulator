@@ -53,9 +53,9 @@ class Game
         var historyItem = document.createElement("DIV");
         historyItem.setAttribute("class", "rollHistoryItem");
         var die1 = document.createElement("DIV");
-        die1.setAttribute("style", "background-image: url('"+roll.roll1+".png')");
+        die1.setAttribute("style", "background-image: url('images/"+roll.roll1+".png')");
         var die2 = document.createElement("DIV");
-        die2.setAttribute("style", "background-image: url('"+roll.roll2+".png')");
+        die2.setAttribute("style", "background-image: url('images/"+roll.roll2+".png')");
         var total = document.createElement("H1");
         total.appendChild(document.createTextNode(roll.total));
         historyItem.appendChild(die1);
